@@ -1,0 +1,21 @@
+{
+  "name": "adobe-stock-ai-checker-proxy",
+  "version": "1.0.0",
+  "description": "Backend proxy server for Adobe Stock AI Checker",
+  "main": "api-proxy-server.js",
+  "scripts": {
+    "start": "node api-proxy-server.js",
+    "dev": "nodemon api-proxy-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
