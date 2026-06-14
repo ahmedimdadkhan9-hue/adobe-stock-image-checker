@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api-proxy-server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api-proxy-server.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
